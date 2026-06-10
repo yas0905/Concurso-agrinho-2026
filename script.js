@@ -1,0 +1,1 @@
+function mostrarCuriosidade(){document.getElementById("texto").innerText="Sistemas automatizados podem reduzir significativamente o desperdício de água na agricultura.";}
