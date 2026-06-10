@@ -26,3 +26,26 @@ body{margin:0;font-family:Arial,sans-serif;background:#f4fff5;color:#333;} .hero
     color: #666;
     text-align: center;
 }
+
+header {
+    position: relative;
+    background-image: url("imagem de fundo.jpeg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 60px 20px;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+}
+
+header * {
+    position: relative;
+}
