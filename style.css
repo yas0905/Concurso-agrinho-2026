@@ -29,7 +29,7 @@ body{margin:0;font-family:Arial,sans-serif;background:#f4fff5;color:#333;} .hero
 
 header {
     position: relative;
-    background-image: url("imagem de fundo.jpeg");
+    background-image: url("./imagem\ de\ fundo.jpeg");
     background-size: cover;
     background-position: center;
     color: white;
