@@ -1,4 +1,4 @@
-body {
+/*body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: #f3faf4;
@@ -6,7 +6,7 @@ body {
 }
 
 /* HERO */
-.hero {
+/*.hero {
     background: linear-gradient(135deg, #1b5e20, #43a047);
     color: white;
     text-align: center;
@@ -14,7 +14,7 @@ body {
 }
 
 /* BOTÃO */
-.btn {
+/*.btn {
     background: white;
     color: #1b5e20;
     padding: 12px 20px;
@@ -29,7 +29,7 @@ body {
 }
 
 /* MENU */
-nav {
+/*nav {
     background: #145a1a;
     padding: 15px;
     text-align: center;
@@ -49,14 +49,14 @@ nav a:hover {
 }
 
 /* SEÇÕES */
-section {
+/*section {
     padding: 50px 20px;
     max-width: 1000px;
     margin: auto;
 }
 
 /* CARDS */
-.cards {
+/*.cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
@@ -70,7 +70,7 @@ section {
     border-top: 4px solid #43a047;
 }
 
-/* BOTÕES */
+/* BOTÕES 
 button {
     padding: 12px 20px;
     border: none;
@@ -85,7 +85,7 @@ button:hover {
     background: #1b5e20;
 }
 
-/* RODAPÉ */
+/* RODAPÉ 
 footer {
     background: #145a1a;
     color: white;
@@ -121,9 +121,10 @@ footer {
 
 header {
     position: relative;
-    background-image: url("./imagem_de_fundo.jpeg");
+    background-image: url("https://raw.githubusercontent.com/yas0905/Concurso-agrinho-2026/main/imagem_de_fundo.jpeg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     color: white;
     padding: 60px 20px;
 }
@@ -138,6 +139,123 @@ header::before {
     background: rgba(0,0,0,0.4);
 }
 
-header * {
+/*header * {
     position: relative;
+}*/
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ffffff; /* tema branco */
+    color: #1f2d1f;
+}
+
+/* CABEÇALHO (sem imagem de fundo aqui, como você pediu) */
+header {
+    text-align: center;
+    padding: 80px 20px;
+    background: #ffffff;
+    color: #1b5e20;
+}
+
+/* MENU */
+nav {
+    background: linear-gradient(90deg, #1565c0, #2e7d32);
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #c8e6c9;
+}
+
+/* SEÇÕES */
+section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* CARDS */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border-top: 4px solid #1565c0;
+}
+
+/* BOTÕES */
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    background: #2e7d32;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #1565c0;
+}
+
+/* NOTÍCIA */
+.noticia {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.noticia h2 {
+    color: #1565c0;
+    text-align: center;
+}
+
+.noticia p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.referencia {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* RODAPÉ */
+footer {
+    background: linear-gradient(90deg, #1565c0, #2e7d32);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    position: relative;
+    background-image: url("https://raw.githubusercontent.com/yas0905/Concurso-agrinho-2026/main/imagem_de_fundo.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 60px 20px;
 }
