@@ -156,7 +156,7 @@ header {
     margin-bottom: 10px;
 }
 
-.conteudo-card {
+/*.conteudo-card {
     display: flex;
     align-items: center;
     gap: 15px;
