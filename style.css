@@ -1,5 +1,97 @@
-body{margin:0;font-family:Arial,sans-serif;background:#f4fff5;color:#333;} .hero{background:linear-gradient(135deg,#2e7d32,#66bb6a);color:white;text-align:center;padding:80px 20px;} .btn{background:white;color:#2e7d32;padding:12px 20px;text-decoration:none;border-radius:25px;font-weight:bold;} nav{background:#1b5e20;padding:15px;text-align:center;position:sticky;top:0;} nav a{color:white;text-decoration:none;margin:15px;} section{padding:50px 20px;max-width:1000px;margin:auto;} .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;} .card{background:white;padding:25px;border-radius:15px;box-shadow:0 4px 10px rgba(0,0,0,.1);} button{padding:12px 20px;border:none;border-radius:25px;background:#2e7d32;color:white;cursor:pointer;} footer{background:#1b5e20;color:white;text-align:center;padding:20px;}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3faf4;
+    color: #2f3b2f;
+}
 
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #1b5e20, #43a047);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+/* BOTÃO */
+.btn {
+    background: white;
+    color: #1b5e20;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #e8f5e9;
+}
+
+/* MENU */
+nav {
+    background: #145a1a;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #a5d6a7;
+}
+
+/* SEÇÕES */
+section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* CARDS */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    border-top: 4px solid #43a047;
+}
+
+/* BOTÕES */
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    background: #2e7d32;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #1b5e20;
+}
+
+/* RODAPÉ */
+footer {
+    background: #145a1a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
 .noticia {
     background: #ffffff;
     padding: 20px;
@@ -29,7 +121,7 @@ body{margin:0;font-family:Arial,sans-serif;background:#f4fff5;color:#333;} .hero
 
 header {
     position: relative;
-    background-image: url("./imagem\ de\ fundo.jpeg");
+    background-image: url("");
     background-size: cover;
     background-position: center;
     color: white;
