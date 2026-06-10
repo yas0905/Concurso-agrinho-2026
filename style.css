@@ -121,7 +121,7 @@ footer {
 
 header {
     position: relative;
-    background-image: url("");
+    background-image: url("./imagem_de_fundo.jpeg");
     background-size: cover;
     background-position: center;
     color: white;
