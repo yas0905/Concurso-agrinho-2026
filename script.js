@@ -1,6 +1,12 @@
 // Exibe uma curiosidade sobre irrigação inteligente na página
 
-function mostrarCuriosidade() { document.getElementById("texto").innerText = "Sistemas de irrigação automatizados podem reduzir significativamente o desperdício de água na agricultura, fornecendo a quantidade ideal de água no momento certo. Essa tecnologia aumenta a eficiência no uso dos recursos hídricos, contribui para a sustentabilidade e auxilia na produção de alimentos de forma mais responsável."; }
+function mostrarCuriosidade() {
+    const texto = document.getElementById("texto");
+
+    texto.innerText = "Sistemas de irrigação automatizados podem reduzir significativamente o desperdício de água na agricultura, fornecendo a quantidade ideal de água no momento certo. Essa tecnologia aumenta a eficiência no uso dos recursos hídricos, contribui para a sustentabilidade e auxilia na produção de alimentos de forma mais responsável.";
+
+    texto.style.display = "block";
+}
 
 // Armazena o tamanho atual da fonte em porcentagem
 

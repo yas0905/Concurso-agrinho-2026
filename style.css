@@ -347,3 +347,15 @@ body.dark-mode a {
     text-align: left;
     padding-left: 20px;
 }
+
+#texto {
+    display: none; /* fica escondido até aparecer */
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-left: 5px solid #1565c0;
+    line-height: 1.6;
+    text-align: justify;
+}
