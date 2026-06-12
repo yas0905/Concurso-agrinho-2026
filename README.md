@@ -4,7 +4,7 @@
 
 ## Sobre o projeto
 
-Este projeto foi desenvolvido para o concurso **Agrinho de Programação**, com base no tema noteador **"Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente"**. O site nomeado **Irregação Inteligente: Cultivando o Futuro** tem como objetivo conscientizar os visitantes sobre a importância do uso eficiente da água na agricultura, apresentando informações sobre irrigação inteligente e tecnologias que contribuem para uma produção mais sustentável.
+Este projeto foi desenvolvido para o concurso **Agrinho de Programação**, com base no tema noteador **"Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente"**. O site nomeado **Irrigação Inteligente: Cultivando o Futuro** tem como objetivo conscientizar os visitantes sobre a importância do uso eficiente da água na agricultura, apresentando informações sobre irrigação inteligente e tecnologias que contribuem para uma produção mais sustentável.
 
 Por meio de uma interface simples e acessível, o projeto busca demonstrar como a inovação pode auxiliar produtores rurais a reduzir desperdícios, preservar os recursos naturais e aumentar a eficiência no campo.
 
