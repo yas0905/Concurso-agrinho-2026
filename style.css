@@ -331,9 +331,12 @@ body.dark-mode a {
     color: #90caf9;
 }
 
+/* Define a largura dos cards da seção "Antes e Depois" */
 .comparacao .card {
     width: 400px;
 }
+
+/* Configura as imagens da comparação */
 
 .imagem-comparacao {
     width: 100%;
@@ -343,18 +346,22 @@ body.dark-mode a {
     display: block;
 }
 
+/* Alinha e ajusta o recuo das listas da seção de comparação */
+
 .comparacao ul {
     text-align: left;
     padding-left: 20px;
 }
 
+/* Estiliza o balão da curiosidade exibida ao clicar no botão */
+
 #texto {
-    display: none; /* fica escondido até aparecer */
+    display: none;
     background: white;
     padding: 20px;
     margin-top: 20px;
     border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-left: 5px solid #1565c0;
     line-height: 1.6;
     text-align: justify;
