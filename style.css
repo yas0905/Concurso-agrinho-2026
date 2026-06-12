@@ -1,11 +1,15 @@
+/* Configurações gerais da página */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #ffffff; /* tema branco */
+    background: #ffffff;
+    /* tema branco */
     color: #1f2d1f;
 }
 
-/* CABEÇALHO (sem imagem de fundo aqui, como você pediu) */
+/* Estilização do cabeçalho principal */
+
 header {
     text-align: center;
     padding: 80px 20px;
@@ -13,7 +17,8 @@ header {
     color: #1b5e20;
 }
 
-/* MENU */
+/* Estilo do menu de navegação */
+
 nav {
     background: linear-gradient(90deg, #1565c0, #2e7d32);
     padding: 15px;
@@ -22,6 +27,8 @@ nav {
     top: 0;
 }
 
+/* Links do menu */
+
 nav a {
     color: white;
     text-decoration: none;
@@ -29,33 +36,40 @@ nav a {
     font-weight: bold;
 }
 
+/* Efeito ao passar o mouse sobre os links */
+
 nav a:hover {
     color: #c8e6c9;
 }
 
-/* SEÇÕES */
+/* Configuração geral das seções */
+
 section {
     padding: 50px 20px;
     max-width: 1000px;
     margin: auto;
 }
 
-/* CARDS */
+/* Organização dos cards em grade */
+
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
 }
 
+/* Aparência dos cards de conteúdo */
+
 .card {
     background: #ffffff;
     padding: 25px;
     border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     border-top: 4px solid #1565c0;
 }
 
-/* BOTÕES */
+/* Estilo padrão dos botões */
+
 button {
     padding: 12px 20px;
     border: none;
@@ -66,29 +80,38 @@ button {
     transition: 0.3s;
 }
 
+/* Efeito visual dos botões ao passar o mouse */
+
 button:hover {
     background: #1565c0;
 }
 
-/* NOTÍCIA */
+/* Estilização da seção de notícia */
+
 .noticia {
     background: #ffffff;
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
     max-width: 800px;
 }
+
+/* Título da notícia */
 
 .noticia h2 {
     color: #1565c0;
     text-align: center;
 }
 
+/* Texto da notícia */
+
 .noticia p {
     text-align: justify;
     line-height: 1.6;
 }
+
+/* Formatação da referência utilizada */
 
 .referencia {
     text-align: center;
@@ -96,7 +119,7 @@ button:hover {
     color: #666;
 }
 
-/* RODAPÉ */
+/* Estilo do rodapé */
 footer {
     background: linear-gradient(90deg, #1565c0, #2e7d32);
     color: white;
@@ -104,7 +127,7 @@ footer {
     padding: 20px;
 }
 
-/*Imagem do cabeçalho*/
+/* Imagem de fundo do cabeçalho */
 header {
     position: relative;
     background-image: url("https://raw.githubusercontent.com/yas0905/Concurso-agrinho-2026/main/imagem_de_fundo.jpeg");
@@ -115,19 +138,25 @@ header {
     padding: 60px 20px;
 }
 
+/* Bloco de destaque para conteúdos específicos */
+
 .bloco {
     background: white;
     padding: 25px;
     border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
     margin: 20px auto;
     max-width: 900px;
 }
+
+/* Seção de comparação entre os sistemas */
 
 .comparacao {
     text-align: center;
     padding: 50px 20px;
 }
+
+/* Organização dos cards de comparação */
 
 .lado {
     display: flex;
@@ -136,30 +165,35 @@ header {
     flex-wrap: wrap;
 }
 
-/* Cads comparação */
+/* Estilo dos cards da comparação */
 .comparacao .card {
     width: 300px;
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     background: white;
 }
+
+/* Destaque para a irrigação tradicional */
 
 .antes {
     border-top: 5px solid #e53935;
 }
 
+/* Destaque para a irrigação inteligente */
+
 .depois {
     border-top: 5px solid #43a047;
 }
+
+/* Espaçamento dos títulos dos cards */
 
 .card h3 {
     margin-bottom: 10px;
 }
 
-/* ===== RESPONSIVIDADE ===== */
+/* Ajustes para telas de tablets */
 
-/* Tablets */
 @media (max-width: 768px) {
 
     header {
@@ -191,7 +225,8 @@ header {
     }
 }
 
-/* Celulares */
+/* Ajustes para telas de celulares */
+
 @media (max-width: 480px) {
 
     header h1 {
@@ -239,20 +274,26 @@ header {
     }
 }
 
+/* Área dos botões de acessibilidade */
+
 .acessibilidade {
     text-align: center;
     margin: 15px 0;
 }
 
+/* Espaçamento entre os botões de acessibilidade */
+
 .acessibilidade button {
     margin: 5px;
 }
 
-/* Modo escuro */
+/* Configurações do modo escuro */
 body.dark-mode {
     background: #1e1e1e;
     color: #f5f5f5;
 }
+
+/* Aparência dos cards no modo escuro */
 
 body.dark-mode .card,
 body.dark-mode .noticia {
@@ -260,21 +301,31 @@ body.dark-mode .noticia {
     color: #f5f5f5;
 }
 
+/* Ajustes do cabeçalho no modo escuro */
+
 body.dark-mode header {
     color: white;
 }
+
+/* Ajustes do menu no modo escuro */
 
 body.dark-mode nav {
     background: linear-gradient(90deg, #0d47a1, #1b5e20);
 }
 
+/* Ajustes do rodapé no modo escuro */
+
 body.dark-mode footer {
     background: linear-gradient(90deg, #0d47a1, #1b5e20);
 }
 
+/* Cor da referência no modo escuro */
+
 body.dark-mode .referencia {
     color: #cccccc;
 }
+
+/* Cor dos links no modo escuro */
 
 body.dark-mode a {
     color: #90caf9;
