@@ -130,7 +130,7 @@ footer {
 /* Imagem de fundo do cabeçalho */
 header {
     position: relative;
-    background-image: url("https://raw.githubusercontent.com/yas0905/Concurso-agrinho-2026/main/imagem_de_fundo.jpeg");
+    background-image: url("imagem\ de\ fundo.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
