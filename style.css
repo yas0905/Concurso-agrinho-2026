@@ -330,3 +330,20 @@ body.dark-mode .referencia {
 body.dark-mode a {
     color: #90caf9;
 }
+
+.comparacao .card {
+    width: 400px;
+}
+
+.imagem-comparacao {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-top: 15px;
+    display: block;
+}
+
+.comparacao ul {
+    text-align: left;
+    padding-left: 20px;
+}
